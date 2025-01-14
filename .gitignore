@@ -1,0 +1,6 @@
+# Bỏ qua file trong thư mục Tuan4
+Tuan4/chromedriver.exe
+
+# Bỏ qua các file khác
+Tuan4/Pipfile.lock
+Tuan4/MutationObserver
