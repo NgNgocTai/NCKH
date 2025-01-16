@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 import json
 from datetime import datetime, timedelta
+
 service = Service(executable_path="Tuan4/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 

@@ -4,3 +4,4 @@ Tuan4/chromedriver.exe
 # Bỏ qua các file khác
 Tuan4/Pipfile.lock
 Tuan4/MutationObserver
+Tuan4/crawl/shopee.py

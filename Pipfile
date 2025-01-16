@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 scrapy = "*"
 selenium = "*"
+scrapy-user-agents = "*"
+scrapy-selenium = "*"
 
 [dev-packages]
 

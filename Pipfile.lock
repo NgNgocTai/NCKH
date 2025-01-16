@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4dbbc624a817a940010fb87bf690232914e4f059b35d64944c73a3ddbd8940fb"
+            "sha256": "e0ab6d7d25be83d02d0804d9208eaf438e6847ea9948c5f8325a9719444fa845"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -588,6 +588,22 @@
             "markers": "python_version >= '3.9'",
             "version": "==2.12.0"
         },
+        "scrapy-selenium": {
+            "hashes": [
+                "sha256:51f809802a1f62ed852cfe2d2ed49f6141058cc5254ed4b448d2ffe6f7a1b6e9",
+                "sha256:70766315c7970b12a142e1b7a9f43ffb3ef1260891811062ec9dd46a665d935a"
+            ],
+            "index": "pypi",
+            "version": "==0.0.7"
+        },
+        "scrapy-user-agents": {
+            "hashes": [
+                "sha256:284c9af555f3128697a2953ab3cdb987b160b091a12896562d969cf9e81d1350",
+                "sha256:aa1f78c8cbae42f1a7159c5ea16c2638ac17e78d7d44111d164ed099ec48705f"
+            ],
+            "index": "pypi",
+            "version": "==0.1.1"
+        },
         "selenium": {
             "hashes": [
                 "sha256:5296c425a75ff1b44d0d5199042b36a6d1ef76c04fb775b97b40be739a9caae2",
@@ -668,6 +684,21 @@
             "markers": "python_version >= '3.8'",
             "version": "==4.12.2"
         },
+        "ua-parser": {
+            "hashes": [
+                "sha256:5b31133606a781f56692caa11a9671a9f330c22604b3c4957a7ba18c152212d0",
+                "sha256:a9740f53f4fbb72b7a03d304cae32a2785cafc55e8207efb74877bba17c35324"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==1.0.0"
+        },
+        "ua-parser-builtins": {
+            "hashes": [
+                "sha256:eb4f93504040c3a990a6b0742a2afd540d87d7f9f05fd66e94c101db1564674d"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==0.18.0.post1"
+        },
         "urllib3": {
             "extras": [
                 "socks"
@@ -678,6 +709,13 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.3.0"
+        },
+        "user-agents": {
+            "hashes": [
+                "sha256:a98c4dc72ecbc64812c4534108806fb0a0b3a11ec3fd1eafe807cee5b0a942e7",
+                "sha256:d36d25178db65308d1458c5fa4ab39c9b2619377010130329f3955e7626ead26"
+            ],
+            "version": "==2.2.0"
         },
         "w3lib": {
             "hashes": [
