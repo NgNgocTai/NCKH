@@ -11,8 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 # Khởi tạo thời gian bắt đầu
 start_time = time.time()
 
-# Cấu hình Selenium
-service = Service(executable_path="Tuan4/chromedriver.exe")
+# Đường dẫn đầy đủ đến chromedriver.exe
+service = Service(r"D:\Code\NCKH\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 # Danh sách lưu kết quả

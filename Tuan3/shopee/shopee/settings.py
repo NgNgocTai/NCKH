@@ -42,11 +42,12 @@ ROBOTSTXT_OBEY = True
 #    "Accept-Language": "en",
 #}
 
-from shutil import which
 
-# Selenium cấu hình với Chrome
-SELENIUM_DRIVER_NAME = 'chrome'  # Tên trình duyệt
-SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')  # Đường dẫn tới ChromeDriver
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+# Đảm bảo rằng đường dẫn tới chromedriver là chính xác
+service = Service(executable_path=r"D:\Code\NCKH\Tuan3\chromedriver.exe")
+driver = webdriver.Chrome(service=service)
 SELENIUM_DRIVER_ARGUMENTS = ['--headless']  # Thêm '--headless' để chạy không hiển thị giao diện (tùy chọn)
 
 # Kích hoạt Selenium Middleware

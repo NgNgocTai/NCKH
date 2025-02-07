@@ -8,8 +8,8 @@ import time
 
 # A game for fun
 
-# Đảm bảo chromedriver.exe nằm trong thư mục hiện tại hoặc chỉ định đường dẫn đầy đủ
-service = Service(executable_path="Tuan4/chromedriver.exe")
+# Đường dẫn đầy đủ đến chromedriver.exe
+service = Service(r"D:\Code\NCKH\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 driver.get("https://orteil.dashnet.org/cookieclicker/")

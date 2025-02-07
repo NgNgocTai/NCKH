@@ -8,7 +8,7 @@ import time
 import json
 from datetime import datetime, timedelta
 
-service = Service(executable_path="Tuan4/chromedriver.exe")
+service = Service(r"D:\Code\NCKH\chromedriver.exe") 
 driver = webdriver.Chrome(service=service)
 
  #Cộng ngày
