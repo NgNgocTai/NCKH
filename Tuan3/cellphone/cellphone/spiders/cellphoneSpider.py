@@ -22,7 +22,8 @@ class CellphoneSpider(scrapy.Spider):
         # Lấy danh sách các value từ <li>
         values = key_feature.css('ul li::text').getall()
         if key and values:
-            product_feature = values
+            product_feature = list(set(values))  # Loại bỏ trùng lặp bằng set và chuyển về list
+
 
         # Trích xuất thông tin sản phẩm
         product_infor = []

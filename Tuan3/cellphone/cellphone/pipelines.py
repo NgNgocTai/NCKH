@@ -21,7 +21,7 @@ class CellphonePipeline:
         for item in data:
             item = item.strip()  # Loại bỏ khoảng trắng thừa từ đầu và cuối
             # Loại bỏ các dòng không chứa thông tin thực tế
-            if not item:
+            if not item or "Xem thông tin" in item or "CareS.vn" in item:
                 continue
             cleaned_data.append(item)
         return cleaned_data
