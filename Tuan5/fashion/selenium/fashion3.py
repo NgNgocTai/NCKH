@@ -79,7 +79,6 @@ def click_nextButton(ways_to_style, driver):
     next_button = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.CLASS_NAME, "pagination_trigger__YEwyN"))
     )
-    driver.execute_script("arguments[0].scrollIntoView();", next_button)  # Cuộn xuống trước
     time.sleep(1)  # Chờ 1 chút
     next_button.click()
 
